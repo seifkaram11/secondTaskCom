@@ -16,6 +16,7 @@ import androidx.compose.ui.unit.dp
 import com.example.secondtaskforcompose.ui.theme.SecondTaskForComposeTheme
 import com.example.secondtaskforcompose.ui.theme.navigation.AppNavHost
 import com.example.secondtaskforcompose.ui.theme.screens.detailsOfItem.DetailPage
+import com.example.secondtaskforcompose.ui.theme.screens.loading.GitHubLikeLoadingScreen
 //import com.example.secondtaskforcompose.ui.theme.screens.detailsOfItem.DetailPageCompound
 import com.example.secondtaskforcompose.ui.theme.screens.repo_list_screen.ErrorFile
 import com.example.secondtaskforcompose.ui.theme.screens.repo_list_screen.model.RepoDetails
@@ -29,16 +30,18 @@ import com.example.secondtaskforcompose.ui.theme.screens.repo_list_screen.model.
 //                 SecondTaskForComposeTheme {
 //                     AppNavHost()
 //                 }
-                 DetailPage(
-                     RepoDetails(
-                     id = 1,
-                     title = "Kotlin",
-                     description = "A modern programming language for Android development.",
-                     imageRes = R.drawable.kotlin_logo,
-                     stars = 1000,
-                     ownerName = "Google"
-                 )
-                 )
+//                 DetailPage(
+//                     RepoDetails(
+//                     id = 1,
+//                     title = "Kotlin",
+//                     description = "A modern programming language for Android development.",
+//                     imageRes = R.drawable.kotlin_logo,
+//                     stars = 1000,
+//                     ownerName = "Google"
+//                 )
+//                 )
+                 GitHubLikeLoadingScreen()
+
              }
          }
      }

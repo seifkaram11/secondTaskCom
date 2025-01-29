@@ -60,6 +60,10 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.androidx.navigation.compose) // Use the latest version
 
+
+
+
+
     // Optional: If you're using Navigation with Fragment or View (not required for pure Compose)
     implementation(libs.androidx.navigation.fragment.ktx.v273)
     implementation(libs.androidx.navigation.ui.ktx.v273)
@@ -79,4 +83,11 @@ dependencies {
     dependencies {
         implementation(libs.glide)
     }
+
+    //********************for lodaing****************
+    implementation (libs.ui)
+    implementation (libs.androidx.material.v1xx)
+    implementation (libs.androidx.animation)
+    //**********************************************
+
 }
